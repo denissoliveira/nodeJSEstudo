@@ -4,9 +4,10 @@ function createDBConnection() {
     return mysql.createConnection({
         host: 'localhost',
         user: 'root',
-        password: '',
+        password: 'mysql',
         database: 'casadocodigo_nodejs'
     });
+    
 }
 
 module.exports = function() {
