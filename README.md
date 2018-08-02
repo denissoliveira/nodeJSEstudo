@@ -4,11 +4,9 @@ npm install
 
 sudo npm install -g nodemon
 
-docker run -it --name db -e MYSQL_ROOT_PASSWORD=mysql -p 3306:3306 -d mysql/mysql-server:latest
-
-docker exec -it my-mysql bash
-mysql -uroot -p
-
+docker pull mysql
+docker run --name db -e MYSQL_ROOT_PASSWORD=mysql -d mysql:5.7.23
+(para facilitar usar mysql-workbensh)
 create database casadocodigo_nodejs;
 use casadocodigo_nodejs;
 CREATE TABLE livros (
