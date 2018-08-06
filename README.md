@@ -8,6 +8,9 @@
 docker pull mysql<br>
 docker run --name db -e MYSQL_ROOT_PASSWORD=mysql -d mysql:5.7.23<br>
 (para facilitar usar mysql-workbensh)<br>
+windwos - docker run -p 3306:3306 --name db -e MYSQL_ROOT_PASSWORD=mysql -d mysql:5.7.23 <br>
+
+Terminal - mysql -h localhost -u root -p <br>
 create database casadocodigo_nodejs;<br>
 use casadocodigo_nodejs;<br>
 CREATE TABLE livros (
