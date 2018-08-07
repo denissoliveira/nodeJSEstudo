@@ -2,6 +2,10 @@ function ProdutosDAO(connection) {
     this._connection = connection;
 }
 
+//callback nas funcoes faz com que libere o recurso e chama assim que "a query" estiver pronta, assim, com o 
+//callback, não precisa esperar terminar para liberar o recurso para outro
+//normalmente I/O
+
 ProdutosDAO.prototype.lista = function(callback) {
         this._connection.query('select * from livros',callback);
 }

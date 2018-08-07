@@ -13,6 +13,12 @@
     "ejs": "^2.5.6",
     "express": "^4.15.2",
     "express-load": "^1.1.15",
-    "mysql": "^2.16.0"
+    "express-validator": "^5.3.0",
+    "mysql": "^2.16.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
   }
 }

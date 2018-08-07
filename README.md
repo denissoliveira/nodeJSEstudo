@@ -27,3 +27,11 @@ insert into livros(titulo, descricao, preco)
 values ('Comecando com express', 'livro introdutório sobre express', 39.90);<br>
 
 nodemon app<br>
+
+
+<br>
+Rodar os Testes:<br>
+node node_modules/mocha/bin/mocha<br>
+Criar Banco de teste<br><br>
+create database casadocodigo_nodejs_test;<br>
+NODE_ENV=test node_modules/mocha/bin/mocha

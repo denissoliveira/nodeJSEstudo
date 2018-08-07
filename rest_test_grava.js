@@ -19,8 +19,8 @@ var configuracoes = {
 });
 
 var produto = {
-    titulo : 'mais sobre node',
-    descricao: 'node, javascript e um pouco sobre http',
+    titulo : 'Tudo sobre NodeJS',
+    descricao: 'node, javascript e um pouco sobre http e muito mais !',
     preco: '100'
 }
 
